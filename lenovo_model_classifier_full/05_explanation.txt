@@ -1,0 +1,25 @@
+
+Feature Importance Analysis - Random Forest Model
+=================================================
+
+This chart displays the relative importance of each feature used by the Random Forest classifier
+in determining the classification of different Lenovo laptop models.
+
+Explanation of the Chart:
+--------------------------
+- The **horizontal bars** represent the contribution of each feature to the predictive power of the model.
+- The **longer the bar**, the **more influence** that feature has in determining the classification outcome.
+
+Top Features:
+-------------
+1. **Price_USD**: The most influential factor by far. Pricing appears to be highly correlated with laptop class, which could be tied to spec categories like performance vs. budget lines.
+2. **RAM_GB**: Indicates that RAM size is a strong indicator of laptop class (e.g., high-performance vs. base models).
+3. **Battery_Life_Hours** and **Resolution**: These mid-level contributors likely distinguish between premium and standard offerings.
+4. **CPU, Screen Size, Storage Size, and Weight**: These show moderate importance—typically related to overall performance and form factor.
+5. **Touchscreen** and **Has_GPU**: While lower in importance, they still add value in distinguishing models, especially in multimedia/gaming vs. business categories.
+6. **Storage_Type**: Surprisingly lower than expected, possibly because most models use SSDs, leading to lower variation.
+
+Summary:
+--------
+Understanding feature importance helps identify which specs most influence how Lenovo laptops are categorized. This is useful for both modeling decisions and for end users prioritizing features in purchases.
+

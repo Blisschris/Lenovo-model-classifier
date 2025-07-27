@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+  Chromebook       0.50      0.25      0.33         4
+     IdeaPad       0.33      0.67      0.44         3
+      Legion       0.67      0.67      0.67         3
+    ThinkPad       0.25      0.17      0.20         6
+        Yoga       0.40      0.50      0.44         4
+
+    accuracy                           0.40        20
+   macro avg       0.43      0.45      0.42        20
+weighted avg       0.40      0.40      0.38        20
